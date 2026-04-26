@@ -10,7 +10,7 @@
     "newArchEnabled": false,
     "ios": { "supportsTablet": true },
     "android": {
-      "package": "com.axiom.zs.malaga.final.v1",
+      "package": "com.axiom.zs.malaga.release",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
