@@ -1,0 +1,30 @@
+export default {
+  expo: {
+    name: "Axiom-ZS",
+    slug: "axiom-field-auditor",
+    version: "1.0.0",
+    orientation: "portrait",
+    icon: "./assets/images/icon.png",
+    scheme: "axiomfieldauditor",
+    userInterfaceStyle: "light",
+    newArchEnabled: false,
+    ios: { supportsTablet: true },
+    android: {
+      package: "com.axiom.zs.malaga.final",
+      adaptiveIcon: {
+        backgroundColor: "#E6F4FE",
+        foregroundImage: "./assets/images/android-icon-foreground.png"
+      }
+    },
+    plugins: [
+      "expo-router",
+      "expo-image-picker",
+      "expo-location",
+      "expo-print",
+      "expo-sharing"
+    ],
+    extra: {
+      eas: { projectId: "1b9a1029-20fa-4f60-813f-8928401bdf22" }
+    }
+  }
+};
