@@ -8,6 +8,9 @@
     "scheme": "axiomfieldauditor",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
       "package": "com.axiom.zs.malaga.final.v1",
       "adaptiveIcon": {
